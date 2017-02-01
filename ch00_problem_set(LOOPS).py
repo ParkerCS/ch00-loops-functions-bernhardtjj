@@ -1,3 +1,4 @@
+#21/22
 # LOOPS (22pts TOTAL)
 import random
 
@@ -65,6 +66,8 @@ for i in range(1000000):
     else:
         failure += 1
 print(round(success / (success + failure) * 100, 2), "%")
+
+# Lee - Should be a five dice roll, not 6.  Otherwise, perfect (-1)
 
 # PROBLEM 4 (Number Puzzler - 6pts)
 # A, B, C, and D are all different digits.
