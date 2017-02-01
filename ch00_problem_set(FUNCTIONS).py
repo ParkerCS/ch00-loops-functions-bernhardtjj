@@ -1,3 +1,4 @@
+# 20/20
 # SECTION 2 - FUNCTIONS (20PTS TOTAL)
 from math import *
 
@@ -38,6 +39,9 @@ try:
     nicefunction(float(input("First number: ")), float(input("Second number: ")), float(input("Third number: ")))
 except ValueError:
     print("Numbers are not words.")
+
+#exceptions.  Nice.
+
 
 # PROBLEM 4 (e to the... - 3pts)
 # Calculate the value of e (from the math library) to the power of -1, 0, 1, 2, and 3.
